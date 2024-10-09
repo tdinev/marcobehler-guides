@@ -140,7 +140,7 @@ include::https://raw.githubusercontent.com/marcobehler/jdbc-article/master/src/m
 Here's a couple examples of what those connection strings can look like for other databases:
 
 - MySQL ->  `_jdbc:mysql://localhost/mydb_`
-- Postgres -> `_dbc:postgresql://localhost/test_`
+- Postgres -> `_jdbc:postgresql://localhost/test_`
 - Oracle -> `_jdbc:oracle:thin:@prodHost:1521:ORCLE_`
 - SQL Server -> `_jdbc:sqlserver://localhost;instance=SQLEXPRESS;databaseName=myDb_`
 
